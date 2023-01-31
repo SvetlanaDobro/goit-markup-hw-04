@@ -216,6 +216,24 @@ border: 1px solid#E7E9FC;
     background: var(--pressed-state-color);
 }
 
+.hero-background {
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+         rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)
+         ), 
+        url(../images/people-office.jpg);
+    
+   
+    background-position: center; 
+    background-size: cover;
+    
+}
+
 
 
 /*========SECTION BENEFITS========*/
